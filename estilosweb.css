@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(../Index/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #222222;
+    
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: #2A2A2A;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+} 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: gray
+}
+
+h1{
+    color: white;
+    text-align: left;
+    width: 30%;
+    margin: 20px 0px 0px 40px;
+}
+
+div.albumes{
+    margin: 30px 10px 40px 10px;
+    box-shadow: 0 4px 8px 0 #222222, 0 6px 20px 0 rgba(black, green, blue, alpha);
+    float: left;
+    width: 1500px;
+    display:flex;
+}
+
+div.albumes img{
+    width: 100%;
+    height: auto;
+    border: solid; color: gray;
+    border-radius: 20px;
+}
+ 
+div.albumes:hover{
+    transform: scale(1.005);
+}
+
+div.pie{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+
+div.artistas{
+    margin: 10px 40px 10px 40px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    display:flex;
+}
+
+div.artistas img{
+    width: 230px;
+    height: 230px;
+    border: solid; color: gray;
+    border-radius: 150px;
+}
+ 
+div.artistas:hover{
+    transform: scale(1.005);
+}
+
+div.playlist{
+    margin: 10px 40px 10px 40px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    display:flex;
+}
+
+div.playlist img{
+    width: 230px;
+    height: 230px;
+    border: solid; color: gray;
+    border-radius: 20px;
+}
+ 
+div.playlist :hover{
+    transform: scale(1.005);
+}
+
+div.erm{
+    margin: 10px 40px 10px 40px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    display:flex;
+}
+
+div.erm img{
+    width: 230px;
+    height: 230px;
+    border: solid; color: gray;
+    border-radius: 20px;
+}
+ 
+div.erm :hover{
+    transform: scale(1.005);
+}
+
+section.reprod {
+    z-index: 1;
+    position: initial;
+    
+    scale: 23%;
+    width: 1px;
+    height: 1px;
+
+}
+
+footer{
+    background-color: #2A2A2A;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+h2{
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+footer h2 :hover{
+    color: #222222;
+    cursor: pointer;
+}
